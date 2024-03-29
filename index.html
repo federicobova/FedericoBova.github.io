@@ -1,43 +1,297 @@
 <!DOCTYPE html>
-<html lang="en-US">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Federico Bova</title>
-    <meta name="author" content="Federico Bova" />
-    <meta name="description" content="Federico Bova is a developer and applied mathematics student in Genoa." />
-    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" href="styles.css"> <!-- Include your external CSS file -->
-    <script src="script.js" defer></script>
-</head>
-<body>
-    <h1>Hello! I'm <a href="https://it.wikipedia.org/wiki/Federico" target="_blank">Federico</a> <a href="https://it.wikipedia.org/wiki/Bova_(Italia)" target="_blank">Bova</a>.</h1>
-    <p>
-        I have a bachelor's degree in <a href="https://love.imaginary.org/" target="_blank">Pure Mathematics</a> at
-        <a href="https://unige.it/" target="_blank">University of Genoa</a> and I'm a master's student in
-        <a href="https://miro.medium.com/v2/resize:fit:2000/1*KtlMP8hF1ZRkhuvrYtOYNg.jpeg" target="_blank">Applied Mathematics</a> and
-        <a href="https://i.ytimg.com/vi/KEkrWRHCDQU/maxresdefault.jpg" target="_blank">Computer Science</a>.
-    </p>
-    <hr />
-    <ul>
-        <li><strong>Scientific Subjects:</strong></li>
-        <li><a href="#" onclick="showPDF('pure_math.pdf')">Pure Mathematics</a> <button onclick="showPDF('pure_math.pdf')">View PDF</button></li>
-        <li><a href="#" onclick="showPDF('applied_math.pdf')">Applied Mathematics</a> <button onclick="showPDF('applied_math.pdf')">View PDF</button></li>
-        <li><a href="#" onclick="showPDF('computer_science.pdf')">Computer Science</a> <button onclick="showPDF('computer_science.pdf')">View PDF</button></li>
-        <!-- Add more subjects as needed -->
-    </ul>
-    <hr />
-    <br />
-    <div class="scroll-text">Please help me</div>
-    <!-- Replace the marquee tag with a proper CSS animation -->
-    <!-- Analytics script goes here -->
+<html lang="en-US" dir="ltr">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, intial-scale=1">
+		<title>Federico Bova</title>
+
+		<meta name="author" content="Federico Bova" />
+		<meta
+			name="description"
+			content="Federico Bova is a developer and applied mathematics student in the Genoa."
+		/>
+
+		<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+
+		<script src="script.js" defer></script>
+	</head>
+	<!-- TEXT="#FFFFFF"  -->
+	<body link="#6644EE" vlink="#6644EE" alink="#FF4400" background="misc/paper.gif" bgcolor="#EEEEEE">
+		<h1>
+			<font size="+4">H</font>ello! <font size="+4">I</font>'m
+			<a href="https://it.wikipedia.org/wiki/Federico" target="_blank"><font size="+4">F</font>ederico</a
+			><a href="https://blank.org" target="_blank">&nbsp;</a
+			><a href="https://it.wikipedia.org/wiki/Bova_(Italia)" target="_blank"><font size="+4">B</font>ova</a
+			><a href="https://en.wikipedia.org/wiki/Full_stop" target="_blank">.</a>
+		</h1>
+		<p>
+			I have a bachelor's degree in <a href="https://love.imaginary.org/" target="_blank">Pure Mathematics</a> at
+			<a href="https://unige.it/ target="_blank">University of Genoa</a> and i'm a master's student in
+			<a href="https://miro.medium.com/v2/resize:fit:2000/1*KtlMP8hF1ZRkhuvrYtOYNg.jpeg" target="_blank">Applied Mathematics</a> and
+			<a href="https://i.ytimg.com/vi/KEkrWRHCDQU/maxresdefault.jpg">Computer Science</a>.
+		</p>
+		<hr />
+			
+			<dt><a href="" target="_blank"> My résumé</a></dt>
+			<dd><i> A pdf. </i></dd>
+			<dt><a href="https://github.com/federicobova" target="_blank"> My Github </a></dt>
+			<dd><i> @FedericoBova </i></dd>
+			<dt><a href="https://leetcode.com/federicobova/" target="_blank"> My LeetCode </a></dt>
+			<dd><i> @FedericoBova </i></dd>
+			<dt><a href="https://www.linkedin.com/in/federicobova/" target="_blank"> My Linkedin </a></dt>
+			<dd><i> Please hire me. </i></dd>
+			<dt><a href="#ｔｈｅｉｎｔｅｒｎｅｔｃａｖｅ" target="_blank">My favorite webpages</a></dt>
+			<dd><i>Click to randomly select a link and enter <strong>the internet cave...</strong></i></dd>
+		</dl>
+		<hr />
+		<br />
+		<marquee direction="right" height="16px"><tt>Please help me</tt></marquee>
+		<!-- GoatCounter analytics -->
+		<script data-goatcounter="" async src="//gc.zgo.at/count.js"></script>
+
+        
+        <div class="container">
+          <div id="sidebar-tabs" class="d-flex align-items-start">
+            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#uni" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Università</button>
+              <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#lol" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">League</button>
+            </div>
+            <div class="tab-content" id="v-pills-tabContent">
+              <div class="tab-pane fade active show" id="uni" role="tabpanel" aria-labelledby="uni">
+                  
+                  <h3>Università </h3>
+                  <p>Ho frequentato il Dipartimento di Informatica di Torino dal 2011 al 2016 e questi… sono i miei riassunti <i>[immaginare musica hype].</i></p>
+                  
+                  <p>Nel mio percorso universitario ho affrontato gli esami ricopiando gli appunti presi a lezione e trasformandoli in quelli che sarebbero diventati dei quasi-libri. Nel tempo ho imparato che questi riassunti erano utili anche ad altri, dunque ho deciso di renderli pubblici e disponibili a chiunque li desideri.</p>
+                  
+                  <p>Nel corso del tempo ho affinato la mia tecnica di scrittura, integrando nei riassunti anche disegni e schermi rifatti da me, per poi passare a LaTeX durante la magistrale raggiungendo così l’apice del godimento tipografico.</p>
+                  
+                  <p>Oggi sono un felice ricercatore [PepeLaugh] del Dipartimento che mi ha cresciuto oltre che uno streamer per passione.</p>
+                  
+                  <p><strong><i>Disclaimer</i></strong>. I riassunti sono scritti da uno studente per sé stesso. Possono contenere errori e non sostituiscono in alcun modo le lezioni frontali, sebbene mi sia impegnato al massimo per renderli corretti, completi, precisi e comprensibili. Inoltre, considerando il corso di studi di cui si sta parlando, le informazioni contenute nei riassunti diventeranno inevitabilmente obsolete col passare degli anni. Ho deciso di pubblicarli perché in totale sono 3,062 pagine di sforzi… mi spiace vederli marcire sul mio pc.</p>
+                  
+                  <p><strong><i>Spammino del SIUUUM</i></strong>. Se vuoi saperne di più in merito al mio approccio all’università, <a href="https://www.youtube.com/watch?v=4U8QqRxKX9U">questo</a> e <a href="https://www.youtube.com/watch?v=aBZX3jtFDF0"> questo</a> video ne parlano in dettaglio. Se invece sei curioso di sapere come funziona LaTeX, <a href="https://www.youtube.com/watch?v=e8vxRjpf95s" target="_blank">questo</a> video fa al caso tuo. Infine, se non sai cosa fare di sabato e di domenica, <a href="https://twitch.tv/enkk">questo</a> è il mio canale. Infine, <a href="https://scholar.google.it/citations?user=hYhMxB4AAAAJ&amp;hl=en" target="_blank">qui</a> trovi informazioni sulla mia attuale carriera di ricerca.</p>
+                                  
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                          Vedi un esempio
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <iframe src="https://enkk.me/scritti/files/uni/Magistrale/RetiComplesse.pdf" width="100%" height="500px">
+                            </iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  
+                  <div id="uni-container" class="list-container"><h3> Triennale - Primo Anno </h3><ul class="list-group"><li class="list-group-item"><div class="item-first-row row align-items-start"><div class="col-7 d-flex align-self-center">Architettura degli Elaboratori</div><div class="col-5 d-flex justify-content-end"><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('architettura-degli-elaboratori-corso','/files/uni/Triennale/Anno1/ArchitetturaDegliElaboratori_corso.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i>&nbsp;&nbsp;(corso)<span id="architettura-degli-elaboratori-corso_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">222</span></button><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('architettura-degli-elaboratori-lab','/files/uni/Triennale/Anno1/ArchitetturaDegliElaboratori_lab.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i>&nbsp;&nbsp;(lab)<span id="architettura-degli-elaboratori-lab_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">71</span></button></div></div><div class="item-second-row row"><i>Il primo tentativo di riassumere il contenuto di un corso. Particolare focus sulle architetture MIC-I, MIC-II, MIC-III e Java Virtual Machine.</i></div></li></ul><h3> Triennale - Secondo Anno </h3><ul class="list-group"><li class="list-group-item"><div class="item-first-row row align-items-start"><div class="col-9 d-flex align-self-center">Algoritmi</div><div class="col-3 d-flex justify-content-end"><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('algoritmi','/files/uni/Triennale/Anno2/Algoritmi_appunti.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i><span id="algoritmi_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">173</span></button></div></div><div class="item-second-row row"><i>Un corso molto complesso ma anche molto importante. Qui ho soltanto raccolto degli appunti sparsi sulle complessità… meglio di niente.</i></div></li><li class="list-group-item"><div class="item-first-row row align-items-start"><div class="col-7 d-flex align-self-center">Database</div><div class="col-5 d-flex justify-content-end"><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('database-corso','/files/uni/Triennale/Anno2/Database_corso.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i>&nbsp;&nbsp;(corso)<span id="database-corso_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">1212</span></button><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('database-lab','/files/uni/Triennale/Anno2/Database_lab.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i>&nbsp;&nbsp;(lab)<span id="database-lab_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">61</span></button></div></div><div class="item-second-row row"><i>Il primo riassunto fatto per benino. La parte di laboratorio si concentra sull’SQL, mentre il corso tratta tutti i temi fondamentali legati dai database e i DBMS incluse molte nozioni teoriche.</i></div></li><li class="list-group-item"><div class="item-first-row row align-items-start"><div class="col-9 d-flex align-self-center">Economia e Gestione delle Imprese</div><div class="col-3 d-flex justify-content-end"><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('economia-e-gestione-delle-imprese','/files/uni/Triennale/Anno2/EconomiaGestioneImprese_corso.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i><span id="economia-e-gestione-delle-imprese_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">70</span></button></div></div><div class="item-second-row row"><i>Corso di Economia con informazioni preliminari. Due capitoli principali: Business Plan e Impresa.</i></div></li><li class="list-group-item"><div class="item-first-row row align-items-start"><div class="col-9 d-flex align-self-center">Linguaggi Formali e Traduttori</div><div class="col-3 d-flex justify-content-end"><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('linguaggi-formali-e-traduttori','/files/uni/Triennale/Anno2/LinguaggiFormaliETraduttori_appunti.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i><span id="linguaggi-formali-e-traduttori_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">66</span></button></div></div><div class="item-second-row row"><i>Come per algoritmi, un corso molto complicato ma molto importante. Anche qui ci sono soltanto degli appuntini a caso.</i></div></li><li class="list-group-item"><div class="item-first-row row align-items-start"><div class="col-7 d-flex align-self-center">Sistemi Operativi</div><div class="col-5 d-flex justify-content-end"><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('sistemi-operativi-corso','/files/uni/Triennale/Anno2/SistemiOperativi_corso.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i>&nbsp;&nbsp;(corso)<span id="sistemi-operativi-corso_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">155</span></button><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('sistemi-operativi-lab','/files/uni/Triennale/Anno2/SistemiOperativi_lab.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i>&nbsp;&nbsp;(lab)<span id="sistemi-operativi-lab_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">77</span></button></div></div><div class="item-second-row row"><i>Uno dei corsi più impegnativi della triennale. Qui il riassunto è aderente al corso, con 10 sontuosi capitoli. Il laboratorio si concentra su UNIX e C.</i></div></li></ul><h3> Triennale - Terzo Anno </h3><ul class="list-group"><li class="list-group-item"><div class="item-first-row row align-items-start"><div class="col-9 d-flex align-self-center">Interazione Uomo Macchina</div><div class="col-3 d-flex justify-content-end"><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('interazione-uomo-macchina','/files/uni/Triennale/Anno3/InterazioneUomoMacchina_corso.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i><span id="interazione-uomo-macchina_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">52</span></button></div></div><div class="item-second-row row"><i>Un corso molto interessante. Da qui in poi i riassunti contengono l’indice, quindi potete vederne il contenuto direttamente da la.</i></div></li><li class="list-group-item"><div class="item-first-row row align-items-start"><div class="col-9 d-flex align-self-center">Reti</div><div class="col-3 d-flex justify-content-end"><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('reti','/files/uni/Triennale/Anno3/Reti_corso.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i><span id="reti_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">112</span></button></div></div><div class="item-second-row row"><i>Corso bello grosso, molto interessante e fondamentale per capire la magia dell’internet. Consultare l’indice per maggiori informazioni.</i></div></li><li class="list-group-item"><div class="item-first-row row align-items-start"><div class="col-9 d-flex align-self-center">Sicurezza</div><div class="col-3 d-flex justify-content-end"><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('sicurezza','/files/uni/Triennale/Anno3/Sicurezza_corso.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i><span id="sicurezza_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">64</span></button></div></div><div class="item-second-row row"><i>Una infarinatura relativa ai meccanismi di sicurezza informatica. Much spicy. Sono due macro sezioni: sicurezza delle comunicazioni e sicurezza dei calcolatori. Consultare l’indice per maggiori informazioni.</i></div></li><li class="list-group-item"><div class="item-first-row row align-items-start"><div class="col-9 d-flex align-self-center">Sistemi Intelligenti</div><div class="col-3 d-flex justify-content-end"><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('sistemi-intelligenti','/files/uni/Triennale/Anno3/SistemiIntelligenti_corso.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i><span id="sistemi-intelligenti_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">67</span></button></div></div><div class="item-second-row row"><i>Il primo incontro con la materia che sarebbe diventata la mia carriera. Un must read. Consultare l’indice per maggiori informazioni.</i></div></li><li class="list-group-item"><div class="item-first-row row align-items-start"><div class="col-7 d-flex align-self-center">Sviluppo Applicazioni Software</div><div class="col-5 d-flex justify-content-end"><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('sviluppo-applicazioni-software-corso','/files/uni/Triennale/Anno3/SviluppoApplicazioniSoftware_corso.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i>&nbsp;&nbsp;(corso)<span id="sviluppo-applicazioni-software-corso_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">70</span></button><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('sviluppo-applicazioni-software-lab','/files/uni/Triennale/Anno3/SviluppoApplicazioniSoftware_lab.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i>&nbsp;&nbsp;(lab)<span id="sviluppo-applicazioni-software-lab_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">50</span></button></div></div><div class="item-second-row row"><i>Corso saporito che si concentra sullo sviluppo di applicazioni. Uno dei primi corsi hands-on. Consultare l’indice per maggiori informazioni.</i></div></li><li class="list-group-item"><div class="item-first-row row align-items-start"><div class="col-7 d-flex align-self-center">Tecnologie Web</div><div class="col-5 d-flex justify-content-end"><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('tecnologie-web-corso','/files/uni/Triennale/Anno3/TecnologieWeb_corso.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i>&nbsp;&nbsp;(corso)<span id="tecnologie-web-corso_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">41</span></button><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('tecnologie-web-lab','/files/uni/Triennale/Anno3/TecnologieWeb_lab.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i>&nbsp;&nbsp;(lab)<span id="tecnologie-web-lab_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">25</span></button></div></div><div class="item-second-row row"><i>Corso introduttivo su tutte le cose dell’internet, molto importante e piacevole. Consultare l’indice per maggiori informazioni.</i></div></li></ul><h3> Magistrale </h3><ul class="list-group"><li class="list-group-item"><div class="item-first-row row align-items-start"><div class="col-9 d-flex align-self-center">Architettura degli Elaboratori II</div><div class="col-3 d-flex justify-content-end"><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('architettura-degli-elaboratori-ii','/files/uni/Magistrale/ArchitetturaDegliElaboratoriII.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i><span id="architettura-degli-elaboratori-ii_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">127</span></button></div></div><div class="item-second-row row"><i>Primo riassunto della magistrale… non si cazzeggia. I riassunti sono ora in LaTeX e sono KAWAISSIMI. Il corso è molto interessante e vasto. Consultare l’indice per maggiori informazioni.</i></div></li><li class="list-group-item"><div class="item-first-row row align-items-start"><div class="col-9 d-flex align-self-center">Database Multimediale</div><div class="col-3 d-flex justify-content-end"><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('database-multimediale','/files/uni/Magistrale/DatabaseMultimediali.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i><span id="database-multimediale_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">48</span></button></div></div><div class="item-second-row row"><i>Uno dei corsi più complessi della mia carriera. Super hype. Tante tecniche interessanti per risolvere tanti problemi complicati. Consultare l’indice per maggiori informazioni.</i></div></li><li class="list-group-item"><div class="item-first-row row align-items-start"><div class="col-9 d-flex align-self-center">Intelligenza Artificiale e Laboratorio</div><div class="col-3 d-flex justify-content-end"><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('intelligenza-artificiale-e-laboratorio','/files/uni/Magistrale/IntelligenzaArtificialeLaboratorio.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i><span id="intelligenza-artificiale-e-laboratorio_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">92</span></button></div></div><div class="item-second-row row"><i>Programmare un robot-cameriere? Sure. Questo è IL corso. Fighissimo. Consultare l’indice per maggiori informazioni.</i></div></li><li class="list-group-item"><div class="item-first-row row align-items-start"><div class="col-7 d-flex align-self-center">Modelli e Architetture di Basi di Dati</div><div class="col-5 d-flex justify-content-end"><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('modelli-e-architetture-di-basi-di-dati-architetture','/files/uni/Magistrale/ModelliArchitetureBaseDati_architetture.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i>&nbsp;&nbsp;(architetture)<span id="modelli-e-architetture-di-basi-di-dati-architetture_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">33</span></button><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('modelli-e-architetture-di-basi-di-dati-modelli','/files/uni/Magistrale/ModelliArchitetureBaseDati_modelli.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i>&nbsp;&nbsp;(modelli)<span id="modelli-e-architetture-di-basi-di-dati-modelli_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">21</span></button></div></div><div class="item-second-row row"><i>Doverose informazioni da sapere. Consultare l’indice per maggiori informazioni.</i></div></li><li class="list-group-item"><div class="item-first-row row align-items-start"><div class="col-9 d-flex align-self-center">Modelli Concorrenti e Algoritmi Distribuiti</div><div class="col-3 d-flex justify-content-end"><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('modelli-concorrenti-e-algoritmi-distribuiti','/files/uni/Magistrale/ModelliConcorrentiAlgoritmiDistribuiti.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i><span id="modelli-concorrenti-e-algoritmi-distribuiti_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">25</span></button></div></div><div class="item-second-row row"><i>Altre doverose informazioni da sapere. Consultare l’indice per maggiori informazioni.</i></div></li><li class="list-group-item"><div class="item-first-row row align-items-start"><div class="col-9 d-flex align-self-center">Metodi Numerici</div><div class="col-3 d-flex justify-content-end"><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('metodi-numerici','/files/uni/Magistrale/MetodiNumerici.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i><span id="metodi-numerici_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">117</span></button></div></div><div class="item-second-row row"><i>Tanta tanta tanta matematica. Formule che fanno stare male. Grandi sofferenze, grandi soddisfazioni. Consultare l’indice per maggiori informazioni.</i></div></li><li class="list-group-item"><div class="item-first-row row align-items-start"><div class="col-9 d-flex align-self-center">Metodi Formali dell'Informatica</div><div class="col-3 d-flex justify-content-end"><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('metodi-formali-dell-informatica','/files/uni/Magistrale/MetodiFormaliInformatica.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i><span id="metodi-formali-dell-informatica_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">75</span></button></div></div><div class="item-second-row row"><i>Per i più infognati… la teoria dietro alla pratica. Bellissimo. Consultare l’indice per maggiori informazioni.</i></div></li><li class="list-group-item"><div class="item-first-row row align-items-start"><div class="col-9 d-flex align-self-center">Reti Complesse</div><div class="col-3 d-flex justify-content-end"><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('reti-complesse','/files/uni/Magistrale/RetiComplesse.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i><span id="reti-complesse_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">59</span></button></div></div><div class="item-second-row row"><i>Corso molto spicy con tante cose di quelle che piacciono ai giovani. Tral’altro i modelli usati per le reti complesse sono anche quelli che si usano per studiare le pandemie. 2020 intensifies. Consultare l’indice per maggiori informazioni.</i></div></li><li class="list-group-item"><div class="item-first-row row align-items-start"><div class="col-9 d-flex align-self-center">Reti Neurali</div><div class="col-3 d-flex justify-content-end"><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('reti-neurali','/files/uni/Magistrale/RetiNeurali.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i><span id="reti-neurali_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">116</span></button></div></div><div class="item-second-row row"><i>Riassunti un po’ pepega, considerando che il settore è stato sconvolto da quando ho finito il corso. Però dai, ci sta dentro. Consultare l’indice per maggiori informazioni.</i></div></li><li class="list-group-item"><div class="item-first-row row align-items-start"><div class="col-7 d-flex align-self-center">Sistemi Cognitivi</div><div class="col-5 d-flex justify-content-end"><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('sistemi-cognitivi-parte-1','/files/uni/Magistrale/SistemiCognitivi_boella.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i>&nbsp;&nbsp;(parte 1)<span id="sistemi-cognitivi-parte-1_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">92</span></button><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('sistemi-cognitivi-parte-2','/files/uni/Magistrale/SistemiCognitivi_mazzei.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i>&nbsp;&nbsp;(parte 2)<span id="sistemi-cognitivi-parte-2_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">32</span></button><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('sistemi-cognitivi-parte-3','/files/uni/Magistrale/SistemiCognitivi_radicioni.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i>&nbsp;&nbsp;(parte 3)<span id="sistemi-cognitivi-parte-3_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">35</span></button></div></div><div class="item-second-row row"><i>L’ultimo grande sforzo prima della laurea. Oggi lavoro con uno degli insegnanti di questo corso. Bellissimo e mastodontico. Consultare l’indice per maggiori informazioni.</i></div></li></ul></div>
+              </div>
+              <div class="tab-pane fade" id="lol" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                  
+                  <h3>KEKWKD</h3>
+                  <p>Ora mi conoscete come un famosissimo streamer di Twitch ricchissimo e pieno di figa… ma c’è stato un tempo in cui sono stato un accanito...</p>
+                  <div style="text-align:center;">
+                  <img width="20%" src="https://gumlet.assettype.com/afkgaming%2F2021-08%2F79649079-d0e7-4acd-853b-6a2b92797da3%2Fcopium_png.png?auto=format%2Ccompress&amp;dpr=1.0&amp;w=400" alt="What Does Copium Mean in Twitch Chat and Where Did It Originate?">
+                  <p style="margin-top:10px; font-size:25px;"> <em>giocatore di</em> <em>League of Legends</em></p>
+                  </div>
+                  <p>Come ho ottenuto tutto questo? Smettendo di giocare a League of Legends.</p>
+                  
+                  <p>Dovreste smettere anche voi. Ma, nel caso in cui non vogliate smettere, ai tempi avevo fatto due documenti carini che ora sono pure vecchi e obsoleti ma secondo me sono still decent shit. Dateci un occhio se vi va.</p>
+                 
+                 <div id="lol-container" class="list-container"><h3> Guide </h3><ul class="list-group"><li class="list-group-item"><div class="item-first-row row align-items-start"><div class="col-9 d-flex align-self-center">Farmare: una modesta guida</div><div class="col-3 d-flex justify-content-end"><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('farmare-una-modesta-guida','files/leagueoflegends/farmare-una-modesta-guida.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i><span id="farmare-una-modesta-guida_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">40</span></button></div></div><div class="item-second-row row"><i>Il farming è universalmente ritenuta una delle più importanti meccaniche di League of Legends. Lo scopo di questa modesta guida è duplice: sia dimostrare quanto farmare sia importante (numeri alla mano) e sia fornire alcune pratiche per allenare le proprie abilità di farming.</i></div></li><li class="list-group-item"><div class="item-first-row row align-items-start"><div class="col-9 d-flex align-self-center">Win Conditions &amp; Power Spikes: una modesta guida</div><div class="col-3 d-flex justify-content-end"><button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount('win-conditions-power-spikes-una-modesta-guida','files/leagueoflegends/win-conditions-power-spikes-una-modesta-guida.pdf')" "=""><i class="fa fa-download" aria-hidden="true"></i><span id="win-conditions-power-spikes-una-modesta-guida_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">30</span></button></div></div><div class="item-second-row row"><i>L'obiettivo di una partita di League of Legends è semplice: vincere. Se il goal finale è ovviamente quello di distruggere il Nexus nemico, non è altrettanto semplice stabilire quali siano i passi da intraprendere per raggiungerlo. Il modo più naturale per ottenere la vittoria è giocare seguendo le proprie win conditions. Scopo di questa modesta guida è quello di capire cosa si intenda per win conditions e di discutere l'importante tema dei power spikes, che gli si affianca.</i></div></li></ul></div>
+                  
+              </div>
+            </div>
+          </div>
+              
+              
+          
     
-    <script>
-        function showPDF(filename) {
-            // Assuming you have a folder containing PDFs named "pdfs" in the same directory as this HTML file
-            // Change the path accordingly if your PDFs are located elsewhere
-            window.open('pdfs/' + filename);
+    </div>
+    <div class="row">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center" style="font-size:20px">
+          <span class="text-muted" id="visitors">20622</span>&nbsp; <span class="text-muted">total visitors</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-muted" href="https://twitch.tv/enkk"><i class="fab fa-twitch" aria-hidden="true"></i></a></li>
+          <li class="ms-3"><a class="text-muted" href="https://twitter.com/carboaceto"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+          <li class="ms-3"><a class="text-muted" href="https://instagram.com/enkkgram"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+          <li class="ms-3"><a class="text-muted" href="https://linktr.ee/enkk"><i class="fas fa-link" aria-hidden="true"></i></a></li>
+        </ul>
+      </footer>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+    <script> 
+    
+    const HEAD_SITE = "https://enkk.me/scritti/"
+    var counts = {}
+    
+    $(document).ready(function() {		
+        //data
+        $.ajax({
+              type: "GET",
+              url: HEAD_SITE+"data/counts.json",
+              dataType: "json",
+              success: function(data) {
+                counts = data
+                console.log("Counts have been loaded", counts)
+                
+                console.log("Now I generate the content")
+                generateContent("uni-container", HEAD_SITE+"data/uni.json")
+                generateContent("lol-container", HEAD_SITE+"/data/leagueoflegends.json")	  
+              }
+           });
+           
+        //visitors
+        $.ajax({
+              type: "GET",
+              url: HEAD_SITE+"incrementAndGetVisitors.php",
+              dataType: "json",
+              success: function(data) {
+                 $("#visitors").html(data) 
+              }
+           });
+           
+           
+    });
+    
+    
+    /**
+    * Open download page and Increments a count
+    */
+    function downloadAndIncrementCount(id, href) {
+       console.log("Incrementing count for", id)
+       $('#'+id+"_count").html(parseInt($('#'+id+"_count").html())+1)	 
+       
+       //update on server
+       $.ajax({
+             type: "GET",
+             url: HEAD_SITE+"/incrementCount.php?element_id="+id,
+             dataType: "json"
+          });
+        
+        //open href in new page
+        window.open(HEAD_SITE+href)
+          
+    }
+    
+    /**
+    * Generates a list of lists (one for each category) in the data
+    * Its the complete content
+    **/
+    function generateContent(container_id, json_url) {
+    
+        $.ajax({
+            type: "GET",
+            url: json_url,
+            dataType: "json",
+            success: function(data) {
+                
+                Object.keys(data).forEach(key => {
+                    let list_html = "<h3> "+key+" </h3>"
+                    list_html += '<ul class="list-group">'
+                    
+                    let elements = data[key]
+                    for (const el of elements){
+                        //before generating the element check if we have a count for
+                        //each url. if not, add the new url with count 0
+                        //this is for the new elements which have never been counted before
+                        //the others should already have a count
+                        el["urls"].forEach(url => {
+                            if (counts[toId(url["name"])] == undefined)
+                                counts[toId(url["name"])] = 0
+                        });
+                        
+                        list_html += buildListElement(el)	
+                    };
+                    
+                    list_html += "</ul>"
+                    
+                    $('#'+container_id).append(list_html)
+                })
+                
+            }
+        });
+       
+    }
+    
+    
+    /**
+    * Converts a name into a id
+    */
+    function toId(str) {
+        str = str.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"")
+        str = str.replace(/'/g, '-')
+        str = str.replace(/"/g, '-')
+        return str.replace(/\s+/g, '-').toLowerCase() 
+    }
+    
+    /** 
+    * Converts a download name into an icon
+    */
+    function toDownloadIcon(str) {
+        let splitted = str.split("(")
+        let icon = '<i class="fa fa-download" aria-hidden="true"></i>'
+        if(splitted.length > 1)
+            return icon+"&nbsp;&nbsp;("+splitted[1]
+        else 
+            return icon
+    }
+    
+    /**
+    * Builds a single element of a list
+    */
+    function buildListElement(el) {
+        let name = el["name"]
+        let description = el["desc"]
+        let buttons = ""
+        
+        el["urls"].forEach(url => {
+            buttons += buildButton(url["name"], url["href"])
+        });
+        
+        let col1 = 9;
+        let col2 = 3;
+        
+        if(el["urls"].length > 1) {
+            col1 = 7
+            col2 = 5
         }
+        
+        return '<li class="list-group-item">'+
+              '<div class="item-first-row row align-items-start">'+
+                  '<div class="col-'+col1+' d-flex align-self-center">'+name+'</div>'+
+                  '<div class="col-'+col2+' d-flex justify-content-end">'+buttons+'</div>'+
+                '</div>'+
+                '<div class="item-second-row row"><i>'+description+'</i></div>'+
+          '</li>';
+    }
+    
+    /**
+    * Builds a download button
+    */ 
+    function buildButton(name, href) {
+        return '<button class="btn btn-primary position-relative download-button" onclick="downloadAndIncrementCount(\''+toId(name)+'\',\''+href+'\')"">' + 
+                toDownloadIcon(name)+
+            '<span id="'+toId(name)+'_count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">'+counts[toId(name)]+'</span>'+
+            '</button>';
+    }
+    
+    
+    
+    
+    
     </script>
-</body>
+    
+    </div>
 </html>
