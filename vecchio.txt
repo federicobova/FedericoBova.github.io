@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, intial-scale=1">
+		<title>Federico Bova</title>
+
+		<meta name="author" content="Federico Bova" />
+		<meta
+			name="description"
+			content="Federico Bova is a developer and applied mathematics student in the Genoa."
+		/>
+
+		<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+
+		<script src="script.js" defer></script>
+	</head>
+	<!-- TEXT="#FFFFFF"  -->
+	<body link="#6644EE" vlink="#6644EE" alink="#FF4400" background="misc/paper.gif" bgcolor="#EEEEEE">
+		<h1>
+			<font size="+4">H</font>ello! <font size="+4">I</font>'m
+			<a href="https://it.wikipedia.org/wiki/Federico" target="_blank"><font size="+4">F</font>ederico</a
+			><a href="https://blank.org" target="_blank">&nbsp;</a
+			><a href="https://it.wikipedia.org/wiki/Bova_(Italia)" target="_blank"><font size="+4">B</font>ova</a
+			><a href="https://en.wikipedia.org/wiki/Full_stop" target="_blank">.</a>
+		</h1>
+		<p>
+			I have a bachelor's degree in <a href="https://love.imaginary.org/" target="_blank">Pure Mathematics</a> at
+			<a href="https://unige.it/ target="_blank">University of Genoa</a> and i'm a master's student in
+			<a href="https://miro.medium.com/v2/resize:fit:2000/1*KtlMP8hF1ZRkhuvrYtOYNg.jpeg" target="_blank">Applied Mathematics</a> and
+			<a href="https://i.ytimg.com/vi/KEkrWRHCDQU/maxresdefault.jpg">Computer Science</a>.
+		</p>
+		<hr />
+			
+			<dt><a href="" target="_blank"> My résumé</a></dt>
+			<dd><i> A pdf. </i></dd>
+			<dt><a href="https://github.com/federicobova" target="_blank"> My Github </a></dt>
+			<dd><i> @FedericoBova </i></dd>
+			<dt><a href="https://leetcode.com/federicobova/" target="_blank"> My LeetCode </a></dt>
+			<dd><i> @FedericoBova </i></dd>
+			<dt><a href="https://www.linkedin.com/in/federicobova/" target="_blank"> My Linkedin </a></dt>
+			<dd><i> Please hire me. </i></dd>
+			<dt><a href="#ｔｈｅｉｎｔｅｒｎｅｔｃａｖｅ" target="_blank">My favorite webpages</a></dt>
+			<dd><i>Click to randomly select a link and enter <strong>the internet cave...</strong></i></dd>
+		</dl>
+		<hr />
+		<br />
+		<marquee direction="right" height="16px"><tt>Please help me</tt></marquee>
+		<!-- GoatCounter analytics -->
+		<script data-goatcounter="" async src="//gc.zgo.at/count.js"></script>
+	</body>
+</html>
