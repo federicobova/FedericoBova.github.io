@@ -32,6 +32,23 @@
     });
   });
 
+
+  var caveTrigger = document.getElementById('internetCaveLink');
+  if (caveTrigger) {
+    caveTrigger.addEventListener('click', function (e) {
+      e.preventDefault();
+      var links = [
+        'https://en.wikipedia.org/wiki/Internet',
+        'https://www.archive.org/',
+        'https://www.wolframalpha.com/',
+        'https://hyzenki.github.io/index.html',
+        'https://github.com/federicobova'
+      ];
+      var randomUrl = links[Math.floor(Math.random() * links.length)];
+      window.open(randomUrl, '_blank', 'noopener,noreferrer');
+    });
+  }
+
   var year = document.getElementById('displayDate');
   if (year) year.textContent = new Date().getFullYear();
 })();
